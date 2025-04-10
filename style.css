@@ -85,4 +85,29 @@ margin-bottom: 30px;
 
  
  }
+
+ .wew{
+    width: 65px;
+     
+ }
+
+ .testimonials{
+    border: 3px solid violet;
+    padding: 20px;
+    background-color: rebeccapurple (189,228,206);
+    transition: all ease-in .4s;
+    margin-top: 20px;
+
+ }
+
+ .testimontials:hover{
+    transform: scale(1,1);
+
+ }
+
+ #reviews h2 {
+font-size: 55px;
+
+ }
+
  
