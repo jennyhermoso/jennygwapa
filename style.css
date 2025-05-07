@@ -27,7 +27,7 @@
 }
 .navbar .nav-link {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 10px;
+    font-size: 20px;
     text-transform: uppercase;
 }
 
@@ -86,6 +86,23 @@ margin-bottom: 30px;
  
  }
 
+ #about {
+    background-color: violet;
+}
+
+#about img{
+    border: 5px solid palegreen;
+}
+
+#about .btn-brand {
+    background-color: palegreen;
+    color: yellow;
+}
+
+#about h2{
+    color: palegreen;
+    font-size: 95px;
+}
  .wew{
     width: 65px;
      
@@ -109,5 +126,94 @@ margin-bottom: 30px;
 font-size: 55px;
 
  }
+
+ 
+#faq{
+    background-color: rgb(245, 26, 146);
+}
+    
+.faq-section {
+max-width: 800px;
+margin: auto;
+}
+.acccordion {
+    background-color:pink;
+    color: white;
+    border-bottom: 1px solid yellow;
+    border-radius: 0 !important;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.accordion-body {
+    border-left: 3px solid red ;
+    padding: 10px 25px;
+    margin-left: 0;
+    background-color: yellow;
+    color: white;
+}
+
+.acccordion-button:not(.collapsed) {
+    background-color: red;
+    color: white;
+}
+
+.accordion-button:hover{
+    background-color:pink;
+    color: black;
+}
+
+#footer {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        background-color: black;
+    }
+#footer ul.list-unstyled li a{
+    color: #ffffff;
+    text-decoration: none;
+}
+#footer ul.list-unstyled li a:hover{
+    color: blueviolet;
+}
+#footer button {
+    border-radius: 1px;
+}
+@media screen and (max-width: 768px) {
+    .navbar{
+        height: auto;
+    }
+    #banner h1{
+        font-size: 40px !important;
+    }
+    #sugpon h2{
+        font-size: 40px !important;
+    }
+    #sugpon .col {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    section {
+        padding: 60px 20px !important;
+    }
+
+    #footer {
+        padding: 60px 20px !important;
+    }
+    #about img{
+        height: 410px;
+        width: 250px !important;
+        margin: 0 auto;
+        object-fit: cover;
+    }
+    #about h2{
+        font-size: 40px !important;
+    }
+}   
 
  
